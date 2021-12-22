@@ -19,6 +19,10 @@ JavaScript
 React, Redux, NodeJS in progress    
 Figma, Photoshop    
 
+#### Some of my works ####
+https://github.com/temuchinAdam/Personal-blog.git             
+https://github.com/temuchinAdam/Momo.git      
+
 #### Education #####
 Belarusian National Technical University    
 Faculty of Civil Engineering    
