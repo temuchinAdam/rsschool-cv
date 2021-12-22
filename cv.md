@@ -1,1 +1,34 @@
+# Artem Adamovich #
+#### My Contact Info: ####
+Phone: +375 29 3643068     
+E-mail: temuchin.adam@gamil.com      
+GitHub: temuchinAdam  
+linkedin: artsiom-adamovich-3540a5212    
 
+#### About Me ####
+I'm a 27 years old Frontend Developer who likes to work on new and challenging projects and solve
+interesting tasks. That helps me grow as a developer and receive knowledge and invaluable experience.
+I enjoy writing code and I love to do it.
+
+
+#### Skills ####
+Git/GitHub    
+HTML    
+CSS (Bootstrap, SASS/SCSS, BEM)    
+JavaScript  
+React, Redux, NodeJS in progress    
+Figma, Photoshop    
+
+#### Education #####
+Belarusian National Technical University    
+Faculty of Civil Engineering    
+Udemy:         
+HTML/CSS          
+JavaScript         
+React     
+ITShatle:         
+Advanced JS         
+Frontend (JS + React)
+#### Languages: ####    
+Russian - native speaker.   
+English - B1+   
