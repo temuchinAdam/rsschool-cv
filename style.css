@@ -4,6 +4,8 @@ body{
     color: white;
     line-height: 1.6;
     background-color: black;
+    height: 100%;
+  
 }
 p{
     margin: 0;
@@ -50,7 +52,7 @@ a{
     text-transform: uppercase;
     font-size: 25px;
     color: white;
-    background-color: black;
+    background-color: rgb(43, 14, 14);
     text-align: center;
     box-shadow: 1px 5px 10px #e42c2c;
     margin-right: 15px;
@@ -58,7 +60,7 @@ a{
 .header__prof{
     margin-top: 15px;
     display: block;
-    background-color: black;
+    background-color: rgb(43, 14, 14);
     text-align: center;
     box-shadow: 1px 5px 10px #e42c2c;
     margin-right: 15px;
@@ -82,7 +84,7 @@ a{
     text-transform: uppercase;
     font-size: 20px;
     color: white;
-    background-color: black;
+    background-color: rgb(43, 14, 14);
     text-align: end;
     box-shadow: 1px 5px 10px #e42c2c;
     margin-right: 15px;
@@ -106,7 +108,7 @@ a{
 .main{
     position: relative;
     display: flex;
-    height: 100vh;
+    height: 100%;
     background-color: rgb(43, 14, 14);
     width: 100%;
     max-width: 1200px;
@@ -118,14 +120,14 @@ a{
    width: 28%;
    background-color: rgb(43, 14, 14);
   
-   height: 100vh;
-   border-right: 5px black solid;
+   height: 100%;
+   
 }
 .main__page{
     width: 72%;
     background-color: rgb(61, 26, 26);
-    
-    height: 100vh;
+    border-left: 5px black solid;
+    height: 100%;
 }
 
 .side__header{
@@ -148,11 +150,19 @@ a{
     margin-left: 15px;
 }
 .skils{
-   display: block;
+ 
 }
 .skil__item{
     display: flex;
     justify-content: start;
+    vertical-align: middle;
+}
+.skil__item-logo{
+    width: 50px;
+    height: 60px;
+}
+.skil__item-text{
+    margin: 15px;
 }
 .section{
     margin: 15px;
@@ -160,14 +170,57 @@ a{
 }
 .section__wrapper{
     margin: 15px;
+    padding: 15px;
 }
 .section__header{
     text-align: center;
-    color: white;
+    color: #e42c2c;
     text-transform: uppercase;
 }
 .code{
     text-align: left;
     font-size: 16px;
     background-color: black;
+}
+.contacts{
+    text-align: center;
+    margin-left: -20px;
+}
+.works{
+    display: flex;
+    justify-content: space-around;
+}
+.works__item{
+   
+   font-style: italic;
+   font-size: 30px;
+}
+.footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+ border-top: 5px black solid;
+    background-color: rgb(66, 30, 30);
+   
+    
+}
+.git__img{
+    width: 70px;
+    height: auto;
+}
+.rs__img{
+    width: 150px;
+    height: auto;
+}
+.footer__content{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer__text{
+    font-style: italic;
+    font-size: 30px;
+    vertical-align: bottom;
 }
