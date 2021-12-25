@@ -82,7 +82,7 @@
                 <h2 class="side__header-head">
                     My Skils
                 </h2>
-                <p class="side__header-text">
+                <div class="side__header-text">
                     <ul class="skils">
                         <li class="skil__item">
                             <img class="skil__item-logo" src="/assets/html.svg" alt="">
@@ -108,9 +108,8 @@
                             <img class="skil__item-logo" src="/assets/figma.svg" alt="">
                             <p class="skil__item-text">FIGMA</p>
                         </li>
-                        
                     </ul>
-                </p> 
+                </div> 
             </div>
         </aside>
         <main class="main__page">
@@ -125,7 +124,7 @@
                             interesting tasks. That helps me grow as a developer and receive knowledge and invaluable experience.
                             I enjoy writing code and I love to do it.
                         </p>
-                        <h3>Languages:</h2>
+                        <h3>Languages:</h3>
                         <ul>
                             <li>Russian: native</li>
                             <li>Belarussian: native</li>
@@ -138,20 +137,20 @@
                 <div class="section__wrapper">
                     <h2 class="section__header">CODE EXAMPLE</h2>
                     <pre class="code">
-                        function humanReadable (seconds) {
+                       spa function humanReadable (seconds) {
   
                             let hh = Math.floor(seconds/3600);
                             let differenceFirst = seconds - hh*3600 
                             let mm = Math.floor((differenceFirst)/60); 
                             let differenceSecond = seconds - mm*60 - hh*3600
                             let ss = Math.floor(differenceSecond);
-                            if(hh<=9){
+                            if(hh &lt; 10){  
                                 hh='0'+hh
                             }
-                            if(mm<=9){
+                            if(mm &lt; 10){
                                 mm='0'+mm
                             }
-                            if(ss<=9){
+                            if(ss &lt; 10){
                                 ss='0'+ss
                             }
                              if (seconds == 0){
