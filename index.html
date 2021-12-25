@@ -9,7 +9,7 @@
    
 </head>
 <body>
-    
+<div class="page">
     <header class="header">
         <div class="container">
             <div class="header__inner">
@@ -72,11 +72,24 @@
                     Advanced js + React
                 </p>
                 <p class="side__header-title">
+                    IT SHATLE
+                </p> 
+                <p class="side__header-text">
+                    HTML + CSS
+                </p>
+                <p class="side__header-title">
+                    IT SHATLE
+                </p> 
+                <p class="side__header-text">
+                    Advanced js + React
+                </p>
+                <p class="side__header-title">
                    Rs School
                 </p> 
                 <p class="side__header-text">
                     JS/Frontend stage 0
                 </p>
+               
             </div>
             <div class="side__header">
                 <h2 class="side__header-head">
@@ -136,39 +149,38 @@
             <section class="section">
                 <div class="section__wrapper">
                     <h2 class="section__header">CODE EXAMPLE</h2>
-                    <pre class="code">
-                       spa function humanReadable (seconds) {
-  
-                            let hh = Math.floor(seconds/3600);
-                            let differenceFirst = seconds - hh*3600 
-                            let mm = Math.floor((differenceFirst)/60); 
-                            let differenceSecond = seconds - mm*60 - hh*3600
-                            let ss = Math.floor(differenceSecond);
-                            if(hh &lt; 10){  
-                                hh='0'+hh
-                            }
-                            if(mm &lt; 10){
-                                mm='0'+mm
-                            }
-                            if(ss &lt; 10){
-                                ss='0'+ss
-                            }
-                             if (seconds == 0){
-                              return '00:00:00'
-                            }else return `${hh}:${mm}:${ss}`;
-                          }
-                    </pre>
+<pre class="code">
+    function humanReadable (seconds) {
+
+        let hh = Math.floor(seconds/3600);
+        let differenceFirst = seconds - hh*3600 
+        let mm = Math.floor((differenceFirst)/60); 
+        let differenceSecond = seconds - mm*60 - hh*3600
+        let ss = Math.floor(differenceSecond);
+        if(hh &lt; 10){  
+            hh='0'+hh
+        }
+        if(mm &lt; 10){
+            mm='0'+mm
+        }
+        if(ss &lt; 10){
+            ss='0'+ss
+        }
+        if (seconds == 0){
+        return '00:00:00'
+        }else return `${hh}:${mm}:${ss}`;
+    }
+</pre>
                 </div>
             </section>
             <section class="section">
                 <div class="section__wrapper">
                     <h2 class="section__header">Contacts</h2>
                     <ul class="contacts">
-                        <li>Phone</li>
-                        <li>Telegram</li>
-                        <li>Skype</li>
-                        <li>E-mail</li>
-                        <li>Telegram</li>
+                        <li>Phone: +375293643068</li>
+                        <li>Telegram: https://t.me/temuchinAdam</li>
+                        <li>Skype: live:.cid.3582ec343a30e42e</li>
+                        <li>E-mail: temuchin.adam@gmail.com</li>
                     </ul>
                 </div>
             </section>
@@ -206,5 +218,6 @@
            
         </div>
     </footer>
+</div>        
 </body>
 </html>

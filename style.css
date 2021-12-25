@@ -7,6 +7,9 @@ body{
     height: 100%;
   
 }
+.page{
+    overflow: hidden;
+}
 p{
     margin: 0;
 }
@@ -25,6 +28,7 @@ a{
     padding: 0;
     background-color: #fff;
 }
+/* header */
 .header{
    
     width: 100%;
@@ -38,14 +42,17 @@ a{
 .header__inner{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 15px 0 5px 0;
     background-color: rgb(43, 14, 14);
+    text-align: center;
 }
 .header__wrapper{
-    width: 75%;
+    width: 60%;
     display: block;
+    position: relative;
+    
 }
 .header__name{
     display: block;
@@ -85,7 +92,7 @@ a{
     font-size: 20px;
     color: white;
     background-color: rgb(43, 14, 14);
-    text-align: end;
+    text-align: center;
     box-shadow: 1px 5px 10px #e42c2c;
     margin-right: 15px;
     height: 50px;
@@ -162,6 +169,7 @@ a{
 .skil__item-text{
     margin: 15px;
 }
+/* section */
 .section{
     margin: 15px;
     box-shadow: 1px 5px 10px #e42c2c;
@@ -193,6 +201,7 @@ a{
    font-style: italic;
    font-size: 30px;
 }
+/* footer */
 .footer{
     width: 100%;
     max-width: 1200px;
@@ -221,4 +230,88 @@ a{
     font-style: italic;
     font-size: 30px;
     vertical-align: bottom;
+}
+@media (max-width: 991px){
+    
+    .header__photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .header__photo-img{
+        
+        justify-content: center;
+        align-items: center
+    }
+  
+    .header__inner{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   
+    .header__wrapper{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+    .code{
+        font-size: 14px;
+    }
+    .skils{
+        padding-left: 0;
+    }
+}
+@media (max-width: 760px){
+    .nav{
+        height: auto;
+    }
+    .nav__item{
+        display: block;
+    }
+    .skil__item-text{
+        display: none;
+    }
+    .skil__item-logo{
+        justify-content: center;
+    }
+    .code{
+        font-size: 5px;
+    }
+    .side__header-title{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 16px;
+    }
+    a{
+        font-size: 14px;
+    }
+    .works{
+        display: block;
+    }
+    .side__header{
+       
+        margin: 5px;
+    }
+    .section__wrapper{
+        margin: 0;
+    }
+    .header__name{
+        margin: 0;
+    }
+    .header__prof{
+        margin: 0;
+    }
 }
