@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+   
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__photo">
+                    <img class="header__photo-img" src="/assets/avatar.jpg" alt="">
+                </div>
+                <div class="header__wrapper">
+                    <h1 class="header__name">Artsiom Adamovich</h1>
+                    <div class="header__prof">Frontend developer</div>
+                    <nav class="nav">
+                        <ul class=nav__list>
+                            <li class="nav__item">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#">Code</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#">Skils</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
 
+    </header>
+    <div class="main">
+        <aside class="side__section">
+            <div class="side__header">
+                <h2 class="side__header-head">
+                    Education
+                </h2> 
+                <p class="side__header-title">
+                    Belarussion National Technical University
+                </p> 
+                <p class="side__header-text">
+                    Industrial and civil construction
+                </p>
+                <p class="side__header-title">
+                    Belarussion National Technical University
+                </p> 
+                <p class="side__header-text">
+                    Logistics and economics
+                </p>
+                <p class="side__header-title">
+                    Udemy
+                </p> 
+                <p class="side__header-text">
+                    HTML + CSS
+                </p>
+                <p class="side__header-text">
+                    Advanced js + React
+                </p>
+                <p class="side__header-title">
+                   Rs School
+                </p> 
+                <p class="side__header-text">
+                    JS/Frontend stage 0
+                </p>
+            </div>
+            <div class="side__header">
+                <h2 class="side__header-head">
+                    My Skils
+                </h2>
+                <p class="side__header-text">
+                    <ul class="skils">
+                        <li class="skil__item">
+                            <img src="/assets/html.svg" alt="">
+                            <p>Html</p>
+                        </li>
+                        <li class="skil__item">
+                            <img src="/assets/html.svg" alt="">
+                            <p>Html</p>
+                        </li>
+                        
+                    </ul>
+                </p> 
+            </div>
+        </aside>
+        <main class="main__page">
+            <section class="section">
+                <div class="section__wrapper">
+                    <div class="section__header">
+                        <h2 class='about__header-title'>About me</h2>
+                    </div>
+                    <div class="about__inner">
+                        <p class="about__inner-text">
+                            I'm a 27 years old Frontend Developer who likes to work on new and challenging projects and solve
+                            interesting tasks. That helps me grow as a developer and receive knowledge and invaluable experience.
+                            I enjoy writing code and I love to do it.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__wrapper">
+                    <h2 class="section__header">CODE EXAMPLE</h2>
+                    <pre class="code">
+                        function humanReadable (seconds) {
+  
+                            let hh = Math.floor(seconds/3600);
+                            let differenceFirst = seconds - hh*3600 
+                            let mm = Math.floor((differenceFirst)/60); 
+                            let differenceSecond = seconds - mm*60 - hh*3600
+                            let ss = Math.floor(differenceSecond);
+                            if(hh<=9){
+                                hh='0'+hh
+                            }
+                            if(mm<=9){
+                                mm='0'+mm
+                            }
+                            if(ss<=9){
+                                ss='0'+ss
+                            }
+                             if (seconds == 0){
+                              return '00:00:00'
+                            }else return `${hh}:${mm}:${ss}`;
+                          }
+                    </pre>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
