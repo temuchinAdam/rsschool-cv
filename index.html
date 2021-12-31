@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+   
+</head>
+<body>
+<div class="page">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__photo">
+                    <img class="header__photo-img" src="/assets/avatar.jpg" alt="">
+                </div>
+                <div class="header__wrapper">
+                    <h1 class="header__name">Artsiom Adamovich</h1>
+                    <div class="header__prof">Frontend developer</div>
+                    <nav class="nav">
+                        <ul class=nav__list>
+                            <li class="nav__item">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#">Code</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#">Skils</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#">Works</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#">Contacts</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
 
+    </header>
+    <div class="main">
+        <aside class="side__section">
+            <div class="side__header">
+                <h2 class="side__header-head">
+                    Education
+                </h2> 
+                <p class="side__header-title">
+                    Belarussion National Technical University
+                </p> 
+                <p class="side__header-text">
+                    Industrial and civil construction
+                </p>
+                <p class="side__header-title">
+                    Belarussion National Technical University
+                </p> 
+                <p class="side__header-text">
+                    Logistics and economics
+                </p>
+                <p class="side__header-title">
+                    Udemy
+                </p> 
+                <p class="side__header-text">
+                    HTML + CSS
+                </p>
+                <p class="side__header-text">
+                    Advanced js + React
+                </p>
+                <p class="side__header-title">
+                    IT SHATLE
+                </p> 
+                <p class="side__header-text">
+                    HTML + CSS
+                </p>
+                <p class="side__header-title">
+                    IT SHATLE
+                </p> 
+                <p class="side__header-text">
+                    Advanced js + React
+                </p>
+                <p class="side__header-title">
+                   Rs School
+                </p> 
+                <p class="side__header-text">
+                    JS/Frontend stage 0
+                </p>
+               
+            </div>
+            <div class="side__header">
+                <h2 class="side__header-head">
+                    My Skils
+                </h2>
+                <div class="side__header-text">
+                    <ul class="skils">
+                        <li class="skil__item">
+                            <img class="skil__item-logo" src="/assets/html.svg" alt="">
+                            <p class="skil__item-text">HTML</p>
+                        </li>
+                        <li class="skil__item">
+                            <img class="skil__item-logo" src="/assets/css.svg" alt="">
+                            <p class="skil__item-text">CSS</p>
+                        </li>
+                        <li class="skil__item">
+                            <img class="skil__item-logo" src="/assets/javascript.svg" alt="">
+                            <p class="skil__item-text">JAVASCRIPT</p>
+                        </li>
+                        <li class="skil__item">
+                            <img class="skil__item-logo" src="/assets/sass.svg" alt="">
+                            <p class="skil__item-text">SASS</p>
+                        </li>
+                        <li class="skil__item">
+                            <img class="skil__item-logo" src="/assets/github.svg" alt="">
+                            <p class="skil__item-text">GITHUB</p>
+                        </li>
+                        <li class="skil__item">
+                            <img class="skil__item-logo" src="/assets/figma.svg" alt="">
+                            <p class="skil__item-text">FIGMA</p>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+        </aside>
+        <main class="main__page">
+            <section class="section">
+                <div class="section__wrapper">
+                    <div class="section__header">
+                        <h2 class='about__header-title'>About me</h2>
+                    </div>
+                    <div class="about__inner">
+                        <p class="about__inner-text">
+                            I'm a 27 years old Frontend Developer who likes to work on new and challenging projects and solve
+                            interesting tasks. That helps me grow as a developer and receive knowledge and invaluable experience.
+                            I enjoy writing code and I love to do it.
+                        </p>
+                        <h3>Languages:</h3>
+                        <ul>
+                            <li>Russian: native</li>
+                            <li>Belarussian: native</li>
+                            <li>English: B1</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__wrapper">
+                    <h2 class="section__header">CODE EXAMPLE</h2>
+<pre class="code">
+    function humanReadable (seconds) {
+
+        let hh = Math.floor(seconds/3600);
+        let differenceFirst = seconds - hh*3600 
+        let mm = Math.floor((differenceFirst)/60); 
+        let differenceSecond = seconds - mm*60 - hh*3600
+        let ss = Math.floor(differenceSecond);
+        if(hh &lt; 10){  
+            hh='0'+hh
+        }
+        if(mm &lt; 10){
+            mm='0'+mm
+        }
+        if(ss &lt; 10){
+            ss='0'+ss
+        }
+        if (seconds == 0){
+        return '00:00:00'
+        }else return `${hh}:${mm}:${ss}`;
+    }
+</pre>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__wrapper">
+                    <h2 class="section__header">Contacts</h2>
+                    <ul class="contacts">
+                        <li>Phone: +375293643068</li>
+                        <li>Telegram: https://t.me/temuchinAdam</li>
+                        <li>Skype: live:.cid.3582ec343a30e42e</li>
+                        <li>E-mail: temuchin.adam@gmail.com</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section__wrapper">
+                    <h2 class="section__header">Works</h2>
+                   <ul class="works">
+                       <li class="works__item">
+                           <a href="https://github.com/temuchinAdam/ActiveBox.git">ActiveBox</a>
+                       </li>
+                       <li class="works__item">
+                        <a href="https://github.com/temuchinAdam/Personal-blog.git">Personal blog</a>
+                    </li>
+                   </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="git">
+                <a class="git__link" href="https://github.com/temuchinAdam">
+                    <img class="git__img" src="/assets/github.svg" alt="">
+                </a>
+            </div>
+            <div class="footer__text">
+                <p>Made in 2021</p>
+            </div>
+            
+            <div class="rs">
+                <a class="rs__link" href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0">
+                    <img class="rs__img" src="/assets/rs_school_js.svg" alt="">
+                </a>
+            </div>
+           
+        </div>
+    </footer>
+</div>        
+</body>
+</html>
